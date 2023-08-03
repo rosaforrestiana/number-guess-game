@@ -27,6 +27,7 @@ SELECT * FROM games;
 SELECT * FROM users;
 
 quit after all the numbers are shown in all the tables.
+psql -U postgres < number_guess.sql (before leaving unfinished tasks)
  
 pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
 
